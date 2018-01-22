@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-altbeacon",
+  "version": "0.0.1",
+  "description": "Provides Cordova-based applications the ability to emit AltBeacon beacon.",
+  "main": "www/cordova-plugin-altbeacon.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarDd/cordova-plugin-altbeacon.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "nfcv",
+    "library",
+    "rfid",
+    "android",
+    "javascript"
+  ],
+  "author": "kkontagion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NarDd/cordova-plugin-altbeacon.git/issues"
+  },
+  "homepage": "https://github.com/NarDd/cordova-plugin-altbeacon.git#readme"
+}
