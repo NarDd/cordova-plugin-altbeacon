@@ -13,13 +13,12 @@
   "keywords": [
     "cordova",
     "plugin",
-    "nfcv",
-    "library",
-    "rfid",
+    "altbeacon",
+    "ble",
     "android",
     "javascript"
   ],
-  "author": "kkontagion",
+  "author": "Bernard Ng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NarDd/cordova-plugin-altbeacon.git/issues"
