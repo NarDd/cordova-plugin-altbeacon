@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-altbeacon",
+  "name": "cordova-plugin-altbeacon-marking",
   "version": "0.0.1",
   "description": "Provides Cordova-based applications the ability to emit AltBeacon beacon.",
-  "main": "www/cordova-plugin-altbeacon.js",
+  "main": "www/cordova-plugin-altbeacon-marking.js",
   "scripts": {
 
   },
@@ -18,7 +18,7 @@
     "android",
     "javascript"
   ],
-  "author": "Bernard Ng",
+  "author": "nardd",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NarDd/cordova-plugin-altbeacon.git/issues"
