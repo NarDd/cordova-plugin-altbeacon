@@ -3,7 +3,7 @@
         xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-altbeacon-marking</name>
     <js-module name="ble" src="www/cordova-plugin-altbeacon-marking.js">
-        <clobbers target="ble"/>
+        <clobbers target="BLETransmitter"/>
     </js-module>
     <platform name="android">
       <framework src="org.altbeacon:android-beacon-library:2+" />
