@@ -46,12 +46,19 @@ public class BLETransmitter extends CordovaPlugin  {
     }
 
     if (action.equals("start")) {
-      Integer num = args.getInt(0);
-      Long secret = Long.parseLong("" + num);
-      String major = args.getString(1);
-      String minor = args.getString(2);
-      start(callbackContext,secret,major,minor);
-      return true;
+      if(mBLESupported != beaconTransmitter.SUPPORTED){
+        callbackContext.error("BLE_NOT_SUPPORTED");
+        return true;
+      }
+      else{
+        Integer num = args.getInt(0);
+        Long secret = Long.parseLong("" + num);
+        String major = args.getString(1);
+        String minor = args.getString(2);
+        start(callbackContext,secret,major,minor);
+        return true;
+      }
+
     }
     else if (action.equals("stop")) {
       stop();
