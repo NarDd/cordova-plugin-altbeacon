@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-altbeacon-marking",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provides Cordova-based applications the ability to emit AltBeacon beacon.",
   "main": "www/cordova-plugin-altbeacon-marking.js",
   "scripts": {},
